@@ -1,0 +1,56 @@
+/* Estilos personalizados para la página de noticias */
+
+/* Estilos para la barra de navegación */
+.navbar {
+    padding: 0.5rem 1rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  /* Estilos para la sección de noticias */
+  .card {
+    width: 100%;
+  }
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .card-text {
+    font-size: 1.2rem;
+  }
+  
+  /* Estilos para la cuadrícula */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+  }
+  
+  /* Estilos para el contenedor */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+ 
+  
+  @media screen and (max-width: 767px) {
+    .card {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+  
